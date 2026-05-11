@@ -1,4 +1,4 @@
-export const API_ROOT = import.meta.env.VITE_API_URL || 'https://food-donation-platform-z6hz.onrender.com/api';
+export const API_ROOT = import.meta.env.VITE_API_URL || 'https://foodbridge-food-donation-platform-1.onrender.com/api';
 export const SOCKET_ROOT = import.meta.env.VITE_SOCKET_URL || API_ROOT.replace(/\/api\/?$/, '');
 
 export const languages = {
